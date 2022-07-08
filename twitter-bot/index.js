@@ -18,8 +18,7 @@ function readParams() {
 function getTweets(since_id) {
   return new Promise((resolve, reject) => {
     let params = {
-      q: "Simplesmente a mais braba",
-      since: "2022-06-02",
+      q: "Grêmio",
       count: 10,
     };
     if (since_id) {
