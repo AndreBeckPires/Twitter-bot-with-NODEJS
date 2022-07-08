@@ -18,7 +18,8 @@ function readParams() {
 function getTweets(since_id) {
   return new Promise((resolve, reject) => {
     let params = {
-      q: "esse tt foi retweetado por bot",
+      q: "Simplesmente a mais braba",
+      since: "2022-06-02",
       count: 10,
     };
     if (since_id) {
